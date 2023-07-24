@@ -245,3 +245,19 @@ body {
     gap: 10px;
   }
 }
+footer {
+  background-color: #f0f0f0; /* Color de fondo gris claro */
+  padding: 20px;
+  text-align: center;
+  p {
+    margin-bottom: 10px;
+  }
+  .rede {
+    display: flex;
+    justify-content: center;
+    img {
+      margin: 0 10px; /* Espacio entre los logos */
+      max-width: 30px; /* Tamaño máximo de los logos */
+    }
+  }
+}
